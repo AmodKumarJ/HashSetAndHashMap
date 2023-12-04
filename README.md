@@ -1,4 +1,4 @@
-# __HashMap and HashSet README__
+# __HashMap and HashSet__
 ## __Introduction__
 Welcome to the HashMap and HashSet README! This document provides an overview of HashMap and HashSet, two essential data structures in computer science. Both are part of the Java Collections Framework and are widely used for efficient data storage and retrieval.
 ## __HashMap__
@@ -51,7 +51,7 @@ hashSet.add("Orange");
 // Checking for existence
 boolean containsOrange = hashSet.contains("Orange");
 System.out.println("Contains Orange: " + containsOrange);
-
+____________________________________________________________________________________________________________________________________________________________________________________________________________________
 ### __HashMap Time Complexity:__
 __Insertion (put operation)__: O(1) on average. In the average case, inserting a key-value pair into a HashMap takes constant time. However, in the worst case, when there are hash collisions, it can degrade to O(n) due to linked list traversal (but improvements like balanced trees in modern HashMap implementations mitigate this).
 
